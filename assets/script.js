@@ -73,14 +73,14 @@ $(document).ready(function(){
                  innerRadius: "80%",
                  showInLegend: true,
                  legendText: "{label}",
-                 indexLabel: "{label}: #percent%",
+                 indexLabel: "{label}: {y}",
                  dataPoints: [
-                     {label: "intelligence", y: hero.powerstats[1].intelligence},
-                     {label: "strength", y: hero.powerstats[2].strength},
-                     {label: "speed", y: hero.powerstats[3].speed},
-                     {label: "durability", y: hero.powerstats[4].durability},
-                     {label: "power", y: hero.powerstats[5].power},
-                     {label: "combat", y: hero.powerstats[0].combat},
+                     {label: "intelligence", y: parseInt(hero.powerstats.intelligence)},
+                     {label: "strength", y: parseInt(hero.powerstats.strength)},
+                     {label: "speed", y: parseInt(hero.powerstats.speed)},
+                     {label: "durability", y: parseInt(hero.powerstats.durability)},
+                     {label: "power", y: parseInt(hero.powerstats.power)},
+                     {label: "combat", y: parseInt(hero.powerstats.combat)},
                  ]
              }]
         };
