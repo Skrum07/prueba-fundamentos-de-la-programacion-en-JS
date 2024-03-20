@@ -9,21 +9,27 @@
 </head>
 <body>
     <header>
-        <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid">
+        <nav class="d-flex justify-content-center">
+            <div>
               <a class="navbar-brand" href="#">
-                <img src="./assets/img/48952f2969f9d8b636992fe3916ebc2c.jpg" alt="Logo" width="250" class="d-inline-block">
+                <img src="./assets/img/48952f2969f9d8b636992fe3916ebc2c.jpg" alt="Logo" width="250">
                 <h1>SUPER HEROES</h1>
               </a>
             </div>
           </nav>
-        <div id="searchSuperHero" class="container" >
+        <div id="searchSuperHero" class="d-flex justify-content-center" >
             <form id="buscador">
                 <div class="mb-3">
-                  <label for="searchSuperHero" class="form-label">Pon un numero para buscar tu super heroe!</label>
-                  <input type="text" class="form-control" id="buscarHero">
+                  <label for="searchSuperHero" class="form-label">
+                    Pon un numero para buscar tu super heroe!
+                    <img src="./assets/img/Chapulo_Coloron.webp" alt="Logo" width="80">
+                  </label>
+                  <input type="text" class="form-control .col-xs-3" placeholder="Aqui va el numerito" id="buscarHero">
                 </div>
-                <button type="submit" class="btn btn-primary">Buscar Super Heroe</button>
+                <div class="d-flex justify-content-center">
+                  <button type="submit" class="btn btn-primary width ">Buscar mi super heroe!!</button>
+                </div>
+                
               </form>
         </div>
     </header>
