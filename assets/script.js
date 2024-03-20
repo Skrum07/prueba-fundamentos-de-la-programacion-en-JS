@@ -44,7 +44,7 @@ $(document).ready(function(){
               <h5 class="card-title">Nombre: ${hero.name}</h5>
               <p class="card-text"><small class="text-body-secondary">Nombre completo: ${hero.biography['full-name']}</small></p>
               <hr>
-              <p class="card-text"><small class="text-body-secondary">Raza: ${hero.biography['place-of-birth']}</small></p>
+              <p class="card-text"><small class="text-body-secondary">Lugar de origen: ${hero.biography['place-of-birth']}</small></p>
               <hr>
               <p class="card-text"><small class="text-body-secondary">Alias: ${hero.biography['aliases']}</small></p>
               <hr>
